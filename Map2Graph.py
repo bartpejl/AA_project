@@ -1,3 +1,4 @@
+#parameter indique les mouvements autorisés, pas en diagonal ou non
 def transform(adjacencelist, listpixel, i, j, imax, jmax, parameter):
     if not(i<=0):
         if listpixel[i-1,j] != black:
